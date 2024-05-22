@@ -9,9 +9,9 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url('image/website header222.jpg');
+	background-image: url('/image/website header222.jpg');
 	background-color: #ffb7c5;
-	background-size:100%;
+	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 	width: 80%;
