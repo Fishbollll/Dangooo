@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url("../../DMLG18/image/website header222.jpg");
+	background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 80%;
+    margin: 0 auto;
+    background-attachment: fixed;
+	overflow: hidden;
+ 
+}
+header {
+	margin-left: 395px;
+	margin-top: 40px; 
+}
+header nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+header nav ul a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	  font-family: "Rammetto One", sans-serif;
+}
+header nav ul a li {
+	padding:10px 50px;
+}
+header nav ul a li:hover{
+	color:cornflowerblue;
+}
+div#t{
+	font-family: "Rammetto One", sans-serif;
+	color: black;
+	font-size: 50px ;
+	text-transform: uppercase;
+	letter-spacing:5px;
+	text-align: center;
+	position: relative;
+	top: 90px;
+	left: 230px;
+	
+	
+}
+div#t2{
+	font-family: "Rammetto One", sans-serif;
+	color: black;
+	font-size: 25px ;
+	text-transform: uppercase;
+	letter-spacing:5px;
+	text-align: center;
+	position: relative;
+	top: 90px;
+	left: 170px;
+}
+
+div#logo{
+	margin-top: -53px;
+	margin-left: 10px;
+}
+
+div#button{
+	width: 300px;
+	height: 70px;
+	border-radius: 50px;
+	background :linear-gradient(to bottom,white,black);
+	border: 6px solid white;
+	color: #000000;
+	font-size: 29px;
+	font-family: "Judson", serif;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -270px;
+	left: 700px;
+	padding:5px;
+	font-weight:bolder;
+}
+.button1 a{
+	color:black;
+    text-decoration: none; 
+}
+#button a:hover{
+	color: cyan;
+}
+
+div#ig{
+	position: relative;
+	top:55px;
+	left:500px;
+}
+div#fb{
+	position: relative;
+	top:-5px;
+	left:570px;
+}
+div#gmail{
+	position: relative;
+	top:-60px;
+	left:640px;
+}

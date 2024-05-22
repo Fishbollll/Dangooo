@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background :linear-gradient(#87C5B0,#F8D8AF);
+	background-size:300vh 300vh;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 80%;
+    margin: 0 auto;
+	overflow: hidden;
+
+}
+header {
+	margin-left: 395px;
+	margin-top: -137px; 
+}
+header nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+header nav ul a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	  font-family: "Rammetto One", sans-serif;
+}
+header nav ul a li {
+	padding:20px 50px;
+}
+header nav ul a li:hover{
+	color:cornflowerblue;}
+
+div#logo{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+div#title{
+	color: #FFFFFF;
+	text-align:center;
+	font-size: 28px;
+	font-family: "Rammetto One", sans-serif;
+	position: relative;
+	top:90px;
+	left:-300px
+}
+div#name{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left: 150px;
+}
+div#age{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left: 150px;
+}
+div#date{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left: 150px;
+}
+
+div#Address{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left:150px;
+}
+div#Nationality{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left:150px;
+}
+div#Freelance{
+	color:#FFF3F3;
+	font-family:"Judson", serif;
+	font-size: 20px;
+	word-spacing: 15px;
+	text-align: left;
+	position: relative;
+	top:100px;
+	left: 150px;
+}
+div#photo img{
+	border-radius: 60px;
+    border: 8px solid white;
+	position: relative;   
+	top:-390px;
+	left:800px;
+}
+div#button{
+	position:relative;
+	top:-490px;
+	left:-105px;
+	
+}
+div#ig{
+	position:relative;
+	top:-67px;
+	left:600px;
+}
+div#fb{
+	position:relative;
+	top:-125px;
+	left:670px;
+}
+div#gmail{
+	position:relative;
+	top:-180px;
+	left:740px;
+}

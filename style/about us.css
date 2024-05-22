@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	body{
+	background :linear-gradient(#FAC9D3,#F8E4E6);
+	background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 80%;
+    margin: 0 auto;
+    background-attachment: fixed;
+	overflow: hidden;
+}
+header {
+	margin-left: 395px;
+	margin-top: -127px; 
+}
+header nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+header nav ul a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	  font-family: "Rammetto One", sans-serif;
+}
+header nav ul a li {
+	padding:10px 50px;
+}
+header nav ul a li:hover{
+	color:cornflowerblue;
+}
+div#logo{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+div#t{
+	color: #FFFFFF;
+	text-align:center;
+	font-size: 32px;
+	font-family: "Rammetto One", sans-serif;
+	position: relative;
+	top:150px;
+	left:-300px;
+}
+div#t2{
+	color: #000000;
+	text-align:center;
+	font-size: 15px;
+	font-family: "Rammetto One", sans-serif;
+	position: relative;
+	top:190px;
+	left:-300px;}
+.highlight1 {
+	color: black; /* Change to your desired color */}
+	
+div#t3{
+	color:#616161;
+	font-family: "Judson", serif;
+	font-size: 15px;
+	word-spacing: 3px;
+	text-align: center;
+	position: relative;
+	top:240px;
+	left: -300px;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+div#t4{
+	color: #FFFFFF;
+	text-align:center;
+	font-size: 60px;
+	font-family: "Rammetto One", sans-serif;
+	position: relative;
+	top:-150px;
+	left:400px;
+}
+div#button1 .p1:hover{
+	color:cyan;
+}
+div#button1 a{
+    text-decoration: none; 
+}
+div#button1 .p1{
+	width: 200px;
+	height: 55px;
+	border-radius: 50px;
+	background :linear-gradient(to bottom,white,black);
+	border: 6px solid white;
+	color: #000000;
+	font-size: 22px;
+	font-family: "Judson", serif;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -100px;
+	left: 900px;
+	padding:5px;
+	font-weight:bolder;
+}
+	div#button2 a {
+    text-decoration: none; 
+}
+div#button2 .p1{
+	width: 200px;
+	height: 55px;
+	border-radius: 50px;
+	background :linear-gradient(to bottom,white,black);
+	border: 6px solid white;
+	color: #000000;
+	font-size: 22px;
+	font-family: "Judson", serif;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -70px;
+	left: 900px;
+	padding:5px;
+	font-weight:bolder;
+}
+div#button2 .p1:hover{
+	color:cyan;
+}
+div#button3 a {
+    text-decoration: none; 
+}
+div#button3 .p1{
+	width: 200px;
+	height: 55px;
+	border-radius: 50px;
+	background :linear-gradient(to bottom,white,black);
+	border: 6px solid white;
+	color: #000000;
+	font-size: 22px;
+	font-family: "Judson", serif;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -40px;
+	left: 900px;
+	padding:5px;
+	font-weight:bolder;
+}
+div#button3 .p1:hover{
+	color:cyan;
+}
+div#ig{
+	position:relative;
+	top:-10px;
+	left:500px;
+}
+div#fb{
+	position:relative;
+	top:-70px;
+	left:570px;
+}
+div#gmail{
+	position:relative;
+	top:-126px;
+	left:640px;
+}
+
